@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+.navbar {
+    position: sticky !important;
+    top: 0;
+    height: 5rem;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 3rem;
+    z-index: 4;
+
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 5rem;
+    right: 5rem;
+
+}
+
+ img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    z-index: -1;
+}
+
+.maintext {
+    position: relative;
+    height: fit-content;
+}
+
+.imagetext {
+    position: absolute;
+    z-index: 3;
+    bottom: 40rem;
+}
+
+.firsttext {
+    font-weight: 700;
+    color:black;
+    padding-left: 43rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 54px;
+}
+
+.secondtext {
+    font-weight: 700;
+    color: black;
+    padding-left: 52rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+button {
+    position: relative;
+    left: 54rem;
+    height: 60px;
+    width: 200px;
+    background-color: #b636ff;
+    border: 1px solid #b636ff;
+    color: white;
+    top: 2rem;
+}
+
+.aboutme {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #e5ebf2;
+}
+
+.container {
+    padding-top: 50px;
+}
+
+.entrytext {
+    text-align: justify;
+}
+
+.subtext {
+    font-size: 19px;
+    color: #999fb3;
+    padding: 35px 0 43px;
+    border-bottom: 1px solid #999fb3;
+    text-align: justify;
+}
+
+.imgtext2 {
+    border-radius: 2px;
+}
+
+#sm img {
+    width: 40px;
+    height: 40px;
+}
+
+#ic {
+    display: flex;
+    gap: 9.9rem;
+    padding-top: 1.5rem;
+}
+
+#edu {
+    text-align: center;
+}
+.linedivider
+{
+    height: 7rem;
+}
+.linedivider img {
+    height: 15rem;
+}
+#edu img
+{
+    height: 10rem;
+    width: 10rem;
+}
+.project {
+    font-size: 19px;
+    color: #999fb3;
+    
+    text-align: justify;
+}
+#pimages img
+{
+height: 30rem;
+border-radius: 3rem;
+}
+.proj
+{
+text-decoration: underline;
+}
+#skills img
+{
+    height: 10rem;
+    width: 10rem;
+}
+/* #education{
+    height: 100vh;
+} */
+.logos img
+{
+    align-items: center;
+}
+
+.logo1
+{
+border-right: solid 1px #999fb3;
+border-bottom: solid 1px #999fb3;
+}
+.logonew1
+{
+    border-bottom: solid 1px #999fb3;
+}
+.logo2
+{
+     border-right: solid 1px #999fb3;
+}
+
+.footer {
+    background-color: black;
+}
+
+.footer .row {
+    width: 100%;
+    color: gray;
+    padding: 1rem;
+    font-size: 0.8em;  
+}
+
+.footer .row ul li {
+    display: block;
+    text-align: left;
+}
+#skills
+{
+    height: 27rem;
+}
+#about
+{
+    height: 11rem;
+}
+#aboutrow
+{
+    font-size: 19px;
+    color: #999fb3;
+    justify-content: center;
+    
+}
